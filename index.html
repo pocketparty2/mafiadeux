@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Mafia Game</title>
+  <title>Mafia</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Mafia</h1>
+<h1>Mafia Game</h1>
 
 <div id="menu">
-  <button onclick="createGame()">Create Game</button>
-  <button onclick="joinGame()">Join Game</button>
+
+<button onclick="createGame()">Create Game</button>
+<br><br>
+
+<input id="roomInput" placeholder="Room Code">
+<button onclick="joinGame()">Join Game</button>
+
 </div>
 
 <div id="game"></div>
@@ -19,4 +25,5 @@
 <script src="script.js"></script>
 
 </body>
+
 </html>
